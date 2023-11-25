@@ -272,8 +272,7 @@ fieldset {
   top: 1px;
 }
 
-.search-form__label:hover:not(:first-of-type) {
-  cursor: pointer;
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
